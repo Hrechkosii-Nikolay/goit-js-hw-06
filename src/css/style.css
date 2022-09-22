@@ -1,0 +1,13 @@
+.gallery {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.gallery-img {
+  border-radius: 10px;
+  max-width: 400px;
+  min-height: 270px;
+}
