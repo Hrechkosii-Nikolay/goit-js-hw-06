@@ -16,7 +16,7 @@ function onFormSubmit(e) {
 
   if (password.length === 0) {
     alert("ERROR!!! Enter password!");
-  } else if (password.length < 4) {
+  } else if (password.length <= 4) {
     alert("The password is not secure!");
   } else if (email.length === 0) {
     alert("ERROR!!! Enter email!");
